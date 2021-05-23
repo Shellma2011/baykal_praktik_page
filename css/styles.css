@@ -1,0 +1,35 @@
+:root {
+  --directions-background-color: rgba(112, 207, 41, 0.07);
+  --heading-color: #000000;
+  --text-color: #333333;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Основные направления */
+
+.directions {
+  background-color: var(--directions-background-color);
+  width: 1920px;
+  height: 582px;
+}
+
+.directions-heading {
+  color: var(--heading-color);
+  font-family: PT Serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.39;
+}
+
+.directions-text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 0.21;
+}
